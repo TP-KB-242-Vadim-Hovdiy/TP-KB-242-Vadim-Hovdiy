@@ -23,8 +23,8 @@ def calculator():
             break  
 
         try:
-            a = float(input("Введіть перше число: "))
-            b = float(input("Введіть друге число: "))
+            a = int(input("Введіть перше число: "))
+            b = int(input("Введіть друге число: "))
         except ValueError:
             print("Помилка: введено не число!")
             continue
