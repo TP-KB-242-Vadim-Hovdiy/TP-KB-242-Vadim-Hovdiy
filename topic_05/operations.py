@@ -7,11 +7,11 @@ def main():
 
     while True:
         op = input("\nВиберіть операцію (+, -, *, /, exit): ") 
-        a = int(input("Введіть перше число: "))
-        b = int(input("Введіть друге число: "))
         if op == "exit":
             print("Програма завершена.")
-            break  
+            break
+        a = int(input("Введіть перше число: "))
+        b = int(input("Введіть друге число: "))
         match op:
             case "+":
                 result = plus(a, b)
